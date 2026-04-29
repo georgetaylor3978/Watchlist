@@ -1,5 +1,5 @@
-﻿/**
- * app.js ΓÇö Stock Watchlist Dashboard
+/**
+ * app.js — Stock Watchlist Dashboard
  * Groups stocks by their "group" field, renders a table per group,
  * click to expand details, filter by ROA/ROE/FCF/Growth/PE.
  */
@@ -10,15 +10,15 @@
   const $ = s => document.querySelector(s);
   const $$ = s => document.querySelectorAll(s);
   const fmtPct = v => {
-    if (v === null || v === undefined || v === 'N/A' || v === '-') return 'ΓÇö';
+    if (v === null || v === undefined || v === 'N/A' || v === '-') return '-';
     return (v * 100).toFixed(1) + '%';
   };
   const fmtNum = (v, dec = 1) => {
-    if (v === null || v === undefined || v === '-' || v === 0) return 'ΓÇö';
+    if (v === null || v === undefined || v === '-' || v === 0) return '-';
     return Number(v).toFixed(dec);
   };
   const fmtPrice = (v, curr) => {
-    if (v === null || v === undefined) return 'ΓÇö';
+    if (v === null || v === undefined) return '-';
     const sym = curr === 'CAD' ? 'C$' : '$';
     return sym + Number(v).toFixed(2);
   };
@@ -104,7 +104,7 @@
   // ---- Rating badge ----
   function ratingBadge(val) {
     if (val === null || val === undefined || val === '-' || val === '') {
-      return '<span class="rating-badge rating-none">ΓÇö</span>';
+      return '<span class="rating-badge rating-none">–</span>';
     }
     const n = Number(val);
     let cls = 'rating-mid';
@@ -173,7 +173,7 @@
 
         html += `
               <tr class="stock-row${isExpanded ? ' expanded' : ''}" data-symbol="${escAttr(s.symbol)}">
-                <td><span class="expand-icon">Γû╕</span></td>
+                <td><span class="expand-icon">›</span></td>
                 <td class="td-symbol">${escHtml(s.symbol)}</td>
                 <td class="td-stock">${escHtml(s.stock)}</td>
                 <td class="td-price">${fmtPrice(s.price, s.currency)}</td>
