@@ -1,0 +1,11 @@
+node_modules/
+*.xlsx
+package.json
+package-lock.json
+convert.js
+fill_new_stocks.js
+fix_columns.js
+read_current.js
+.DS_Store
+Thumbs.db
+*.log
