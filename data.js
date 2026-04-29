@@ -11,15 +11,15 @@ const STOCKS_DATA = [
     "variance": -0.01727748691099486,
     "rebound": 0.017581246670218542,
     "corpRank": 0,
-    "roa": "-",
-    "roe": "-",
-    "fcfMargin": "-",
-    "salesGrowth": "-",
-    "pe": "-",
+    "roa": null,
+    "roe": null,
+    "fcfMargin": null,
+    "salesGrowth": null,
+    "pe": null,
     "beta": 0.65,
     "industry": "Commodity Funds",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "AGRICULTURE",
@@ -31,15 +31,15 @@ const STOCKS_DATA = [
     "variance": -0.002018570851836928,
     "rebound": 0.0020226537216827545,
     "corpRank": 0,
-    "roa": "-",
-    "roe": "-",
-    "fcfMargin": "-",
-    "salesGrowth": "-",
-    "pe": "-",
+    "roa": null,
+    "roe": null,
+    "fcfMargin": null,
+    "salesGrowth": null,
+    "pe": null,
     "beta": 1.02,
     "industry": "Commodity Funds",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "AGRICULTURE",
@@ -51,15 +51,15 @@ const STOCKS_DATA = [
     "variance": -0.01433763329206445,
     "rebound": 0.014546191247974294,
     "corpRank": 0,
-    "roa": "-",
-    "roe": "-",
-    "fcfMargin": "-",
-    "salesGrowth": "-",
-    "pe": "-",
+    "roa": null,
+    "roe": null,
+    "fcfMargin": null,
+    "salesGrowth": null,
+    "pe": null,
     "beta": 1.15,
     "industry": "Commodity Funds",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "AGRICULTURE",
@@ -78,8 +78,8 @@ const STOCKS_DATA = [
     "pe": 15.6,
     "beta": 1.08,
     "industry": "Fertilizer and Chemicals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "AGRICULTURE",
@@ -98,8 +98,8 @@ const STOCKS_DATA = [
     "pe": 13.7,
     "beta": 0.81,
     "industry": "Fertilizer and Chemicals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "AGRICULTURE",
@@ -118,13 +118,13 @@ const STOCKS_DATA = [
     "pe": 13.6,
     "beta": 0.42,
     "industry": "Fertilizer and Chemicals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "AGRICULTURE",
     "symbol": "ADM",
-    "stock": "‎Archer-Daniels-Midland Company.",
+    "stock": "-",
     "price": 72.8,
     "currency": "USD",
     "high52": 74.19,
@@ -138,8 +138,8 @@ const STOCKS_DATA = [
     "pe": 32.7,
     "beta": 0.54,
     "industry": "Fertilizer and Chemicals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -158,8 +158,8 @@ const STOCKS_DATA = [
     "pe": 11.4,
     "beta": 0.76,
     "industry": "Pharmaceuticals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -178,8 +178,8 @@ const STOCKS_DATA = [
     "pe": 0,
     "beta": 0.26,
     "industry": "Pharmaceuticals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -198,8 +198,8 @@ const STOCKS_DATA = [
     "pe": 16.16,
     "beta": 0.39,
     "industry": "Biotechnology",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -218,8 +218,8 @@ const STOCKS_DATA = [
     "pe": 20.23,
     "beta": 0.46,
     "industry": "Pharmaceuticals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -238,8 +238,8 @@ const STOCKS_DATA = [
     "pe": 16.96,
     "beta": 0.23,
     "industry": "Pharmaceuticals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -258,8 +258,8 @@ const STOCKS_DATA = [
     "pe": 15.37,
     "beta": 0.21,
     "industry": "Pharmaceuticals",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "BIOTECH",
@@ -279,7 +279,7 @@ const STOCKS_DATA = [
     "beta": 0.61,
     "industry": "Healthcare Providers & Services",
     "comment": "Medical diagnostic tests (lab)",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -298,8 +298,8 @@ const STOCKS_DATA = [
     "pe": 47.68,
     "beta": 0.66,
     "industry": "Interactive Home Entertainment",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -318,8 +318,8 @@ const STOCKS_DATA = [
     "pe": 21.2,
     "beta": 0.61,
     "industry": "Education Services",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -338,8 +338,8 @@ const STOCKS_DATA = [
     "pe": 31.35,
     "beta": 0.53,
     "industry": "Automotive Retail",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -358,8 +358,8 @@ const STOCKS_DATA = [
     "pe": 14.66,
     "beta": 0.63,
     "industry": "Brewers",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -378,8 +378,8 @@ const STOCKS_DATA = [
     "pe": 22.61,
     "beta": 0.38,
     "industry": "Tobacco",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -398,8 +398,8 @@ const STOCKS_DATA = [
     "pe": 22.76,
     "beta": 0.41,
     "industry": "Household Products",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -418,8 +418,8 @@ const STOCKS_DATA = [
     "pe": 40.32,
     "beta": 0.5,
     "industry": "Soft Drinks & Non-alcoholic Beverages",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -438,8 +438,8 @@ const STOCKS_DATA = [
     "pe": 3.05,
     "beta": 0.27,
     "industry": "Packaged Foods & Meats",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -458,8 +458,8 @@ const STOCKS_DATA = [
     "pe": 17.18,
     "beta": 0.74,
     "industry": "Soft Drinks & Non-alcoholic Beverages",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -478,8 +478,8 @@ const STOCKS_DATA = [
     "pe": 44.11,
     "beta": 0.07,
     "industry": "Packaged Foods & Meats",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -498,8 +498,8 @@ const STOCKS_DATA = [
     "pe": 15.13,
     "beta": 0.58,
     "industry": "Household Products",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -518,8 +518,8 @@ const STOCKS_DATA = [
     "pe": 32.18,
     "beta": 0.3,
     "industry": "Household Products",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -538,8 +538,8 @@ const STOCKS_DATA = [
     "pe": 13.74,
     "beta": 0.58,
     "industry": "Food Retail",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -558,8 +558,8 @@ const STOCKS_DATA = [
     "pe": 31.4,
     "beta": 0.45,
     "industry": "Packaged Foods & Meats",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -578,8 +578,8 @@ const STOCKS_DATA = [
     "pe": 33.62,
     "beta": 0.36,
     "industry": "Household Products",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOODS",
@@ -718,8 +718,8 @@ const STOCKS_DATA = [
     "pe": 29.79,
     "beta": 1.12,
     "industry": "Financial Exchanges & Data",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -738,8 +738,8 @@ const STOCKS_DATA = [
     "pe": 30.51,
     "beta": 0.77,
     "industry": "Transaction & Payment Processing Services",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -758,8 +758,8 @@ const STOCKS_DATA = [
     "pe": 33.36,
     "beta": 1.38,
     "industry": "Financial Exchanges & Data",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -778,8 +778,8 @@ const STOCKS_DATA = [
     "pe": 29.09,
     "beta": 0.98,
     "industry": "Financial Exchanges & Data",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -798,8 +798,8 @@ const STOCKS_DATA = [
     "pe": 8.81,
     "beta": 1.79,
     "industry": "Consumer Finance",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -818,8 +818,8 @@ const STOCKS_DATA = [
     "pe": 30.32,
     "beta": 0.74,
     "industry": "Transaction & Payment Processing Services",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -838,8 +838,8 @@ const STOCKS_DATA = [
     "pe": 16.7,
     "beta": 1.3,
     "industry": "Professional & Commercial Services",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -859,7 +859,7 @@ const STOCKS_DATA = [
     "beta": 0.66,
     "industry": "Bond trading services",
     "comment": "Fees on bonds",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "INDUSTRIALS",
@@ -878,7 +878,7 @@ const STOCKS_DATA = [
     "pe": 16.8,
     "beta": 1.26,
     "industry": "Water heaters, boilers, pumps",
-    "comment": "",
+    "comment": "-",
     "risks": "x"
   },
   {
@@ -938,8 +938,8 @@ const STOCKS_DATA = [
     "pe": 11.58,
     "beta": 0.72,
     "industry": "Gold",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -958,8 +958,8 @@ const STOCKS_DATA = [
     "pe": 18.88,
     "beta": 0.49,
     "industry": "Gold",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -971,15 +971,15 @@ const STOCKS_DATA = [
     "variance": -0.1732826241977656,
     "rebound": 0.20960322024151812,
     "corpRank": 0,
-    "roa": "-",
-    "roe": "-",
-    "fcfMargin": "-",
-    "salesGrowth": "-",
-    "pe": "-",
+    "roa": null,
+    "roe": null,
+    "fcfMargin": null,
+    "salesGrowth": null,
+    "pe": null,
     "beta": 0.95,
     "industry": "Commodity Funds",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -991,15 +991,15 @@ const STOCKS_DATA = [
     "variance": -0.3788933915620779,
     "rebound": 0.6100295608108108,
     "corpRank": 0,
-    "roa": "-",
-    "roe": "-",
-    "fcfMargin": "-",
-    "salesGrowth": "-",
-    "pe": "-",
+    "roa": null,
+    "roe": null,
+    "fcfMargin": null,
+    "salesGrowth": null,
+    "pe": null,
     "beta": 1.52,
     "industry": "Commodity Funds",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1019,7 +1019,7 @@ const STOCKS_DATA = [
     "beta": 0.48,
     "industry": "Metals & Mining",
     "comment": "Diversified royalty",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1039,7 +1039,7 @@ const STOCKS_DATA = [
     "beta": 1.58,
     "industry": "Copper",
     "comment": "Jr. Copper",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1059,7 +1059,7 @@ const STOCKS_DATA = [
     "beta": 1.41,
     "industry": "Gold",
     "comment": "Jr PMs",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1079,7 +1079,7 @@ const STOCKS_DATA = [
     "beta": 1.39,
     "industry": "Gold",
     "comment": "Gold large cap",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1098,8 +1098,8 @@ const STOCKS_DATA = [
     "pe": 19.4,
     "beta": 0.85,
     "industry": "Base Metals giant",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1119,7 +1119,7 @@ const STOCKS_DATA = [
     "beta": 1.51,
     "industry": "Metals & Mining",
     "comment": "Silver large cap",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1139,7 +1139,7 @@ const STOCKS_DATA = [
     "beta": 1.45,
     "industry": "Metals & Mining",
     "comment": "Top quality gold",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1159,7 +1159,7 @@ const STOCKS_DATA = [
     "beta": 0.54,
     "industry": "Mixed metals giant",
     "comment": "Base Metals giant",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1178,8 +1178,8 @@ const STOCKS_DATA = [
     "pe": 32.6,
     "beta": 1.12,
     "industry": "Copper",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1198,8 +1198,8 @@ const STOCKS_DATA = [
     "pe": 34.4,
     "beta": 1.35,
     "industry": "Gold royalty",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1218,8 +1218,8 @@ const STOCKS_DATA = [
     "pe": 38.2,
     "beta": 2.88,
     "industry": "Silver junior",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1238,8 +1238,8 @@ const STOCKS_DATA = [
     "pe": 30.7,
     "beta": 1.36,
     "industry": "Metals & Mining",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1258,8 +1258,8 @@ const STOCKS_DATA = [
     "pe": 58.4,
     "beta": 2.11,
     "industry": "Metals & Mining",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1275,11 +1275,11 @@ const STOCKS_DATA = [
     "roe": 1.0730197874765992,
     "fcfMargin": null,
     "salesGrowth": null,
-    "pe": "-",
+    "pe": null,
     "beta": 0.82,
     "industry": "Metals & Mining",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1298,8 +1298,8 @@ const STOCKS_DATA = [
     "pe": 0,
     "beta": 1.75,
     "industry": "Copper",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1318,8 +1318,8 @@ const STOCKS_DATA = [
     "pe": 0,
     "beta": 2.15,
     "industry": "Metals & Mining",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "METALS & MINING",
@@ -1339,7 +1339,7 @@ const STOCKS_DATA = [
     "beta": 1.3,
     "industry": "Metals trust services",
     "comment": "Fees on metals",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "INDUSTRIALS",
@@ -1358,8 +1358,8 @@ const STOCKS_DATA = [
     "pe": 19.71,
     "beta": 0.75,
     "industry": "Industrial Machinery & Supplies & Components",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "INDUSTRIALS",
@@ -1378,8 +1378,8 @@ const STOCKS_DATA = [
     "pe": 16.75,
     "beta": 1.39,
     "industry": "Construction Machinery & Heavy Transportation Equipment",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "FINANCIALS",
@@ -1398,8 +1398,8 @@ const STOCKS_DATA = [
     "pe": 27.4,
     "beta": 0.7,
     "industry": "Research & Consulting Services",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "INDUSTRIALS",
@@ -1418,8 +1418,8 @@ const STOCKS_DATA = [
     "pe": 32.42,
     "beta": 1.05,
     "industry": "Trading Companies & Distributors",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "CONSUMER GOOD",
@@ -1439,7 +1439,7 @@ const STOCKS_DATA = [
     "beta": 0.96,
     "industry": "Textiles & Apparel",
     "comment": "Health risk pivot",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "NEW ENERGY RESURGENCE & GREEN TECH",
@@ -1458,8 +1458,8 @@ const STOCKS_DATA = [
     "pe": 49.4,
     "beta": 1.49,
     "industry": "Uranium",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "NEW ENERGY RESURGENCE & GREEN TECH",
@@ -1478,8 +1478,8 @@ const STOCKS_DATA = [
     "pe": 117.9,
     "beta": 1.03,
     "industry": "Uranium Mines + Power",
-    "comment": "",
-    "risks": "Risk: "
+    "comment": "-",
+    "risks": "Risk:"
   },
   {
     "group": "NEW ENERGY RESURGENCE & GREEN TECH",
@@ -1498,7 +1498,7 @@ const STOCKS_DATA = [
     "pe": 22.9,
     "beta": 0.16,
     "industry": "LNG Carriers",
-    "comment": "",
+    "comment": "-",
     "risks": "Broader energy market uncertainty"
   },
   {
@@ -1518,8 +1518,8 @@ const STOCKS_DATA = [
     "pe": 89.3,
     "beta": 0.28,
     "industry": "Oil & Gas",
-    "comment": "",
-    "risks": "NatGas is trending lower…"
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1538,8 +1538,8 @@ const STOCKS_DATA = [
     "pe": 24.84,
     "beta": 0.66,
     "industry": "Oil & Gas Storage & Transportation",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1558,8 +1558,8 @@ const STOCKS_DATA = [
     "pe": 14.96,
     "beta": 0.27,
     "industry": "Oil & Gas Exploration & Production",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1578,8 +1578,8 @@ const STOCKS_DATA = [
     "pe": 11.51,
     "beta": 0.12,
     "industry": "Oil & Gas Storage & Transportation",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1598,8 +1598,8 @@ const STOCKS_DATA = [
     "pe": 27.93,
     "beta": 0.48,
     "industry": "Integrated Oil & Gas",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1618,8 +1618,8 @@ const STOCKS_DATA = [
     "pe": 26.2,
     "beta": 0.83,
     "industry": "Integrated Oil & Gas",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1638,8 +1638,8 @@ const STOCKS_DATA = [
     "pe": -98.26,
     "beta": 0.38,
     "industry": "Oil & Gas Exploration & Production",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1658,8 +1658,8 @@ const STOCKS_DATA = [
     "pe": 14.9,
     "beta": 0.24,
     "industry": "Oil & Gas Producer",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1678,8 +1678,8 @@ const STOCKS_DATA = [
     "pe": 17.4,
     "beta": 0.47,
     "industry": "Oil, Gas & Consumable Fuels",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1698,8 +1698,8 @@ const STOCKS_DATA = [
     "pe": 17,
     "beta": 0.73,
     "industry": "Exploration & Production",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1718,8 +1718,8 @@ const STOCKS_DATA = [
     "pe": 19,
     "beta": 0.35,
     "industry": "Oil, Gas & Consumable Fuels",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1738,8 +1738,8 @@ const STOCKS_DATA = [
     "pe": 31.7,
     "beta": 0.83,
     "industry": "US Royalty assets",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1758,8 +1758,8 @@ const STOCKS_DATA = [
     "pe": 61.8,
     "beta": 0.67,
     "industry": "Exploration & Production",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1778,8 +1778,8 @@ const STOCKS_DATA = [
     "pe": 21.4,
     "beta": 0.53,
     "industry": "Oil transport (pipes)",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1799,7 +1799,7 @@ const STOCKS_DATA = [
     "beta": 1.12,
     "industry": "Sulfuric Acid products",
     "comment": "Market leader",
-    "risks": ""
+    "risks": "-"
   },
   {
     "group": "OIL  & PETRO DOLLAR",
@@ -1811,14 +1811,14 @@ const STOCKS_DATA = [
     "variance": -0.03042089179052643,
     "rebound": 0.03137535816618908,
     "corpRank": 0,
-    "roa": "-",
-    "roe": "-",
-    "fcfMargin": "-",
-    "salesGrowth": "-",
-    "pe": "-",
+    "roa": null,
+    "roe": null,
+    "fcfMargin": null,
+    "salesGrowth": null,
+    "pe": null,
     "beta": 1.02,
     "industry": "Commodity Funds",
-    "comment": "",
+    "comment": "-",
     "risks": "Energy markets"
   },
   {
@@ -1838,8 +1838,8 @@ const STOCKS_DATA = [
     "pe": 14.8,
     "beta": 0.69,
     "industry": "Professional & Commercial Services",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "SOFTWARE",
@@ -1858,7 +1858,7 @@ const STOCKS_DATA = [
     "pe": 0,
     "beta": 0.98,
     "industry": "Video Games et al",
-    "comment": "",
+    "comment": "-",
     "risks": "They never release GTA"
   },
   {
@@ -1875,11 +1875,11 @@ const STOCKS_DATA = [
     "roe": null,
     "fcfMargin": null,
     "salesGrowth": null,
-    "pe": "-",
+    "pe": null,
     "beta": 1.18,
     "industry": "Grambling",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "SOFTWARE",
@@ -1978,8 +1978,8 @@ const STOCKS_DATA = [
     "pe": 29.02,
     "beta": 1.2,
     "industry": "Semiconductors",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "TECH",
@@ -1998,8 +1998,8 @@ const STOCKS_DATA = [
     "pe": 33.37,
     "beta": 1.43,
     "industry": "Semiconductors",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   },
   {
     "group": "TECH",
@@ -2018,7 +2018,7 @@ const STOCKS_DATA = [
     "pe": null,
     "beta": 1.24,
     "industry": "Semiconductors",
-    "comment": "",
-    "risks": ""
+    "comment": "-",
+    "risks": "-"
   }
 ];
